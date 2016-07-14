@@ -69,5 +69,5 @@ spec:
       volumes:
       - name: rabbitmq-data
         gcePersistentDisk:
-          pdName: one-data
+          pdName: data-rabbit
           fsType: ext4

@@ -55,4 +55,6 @@ spec:
           mountPath: /bitnami/postgresql
       volumes:
       - name: data
-        emptyDir: {}
+        gcePersistentDisk:
+          pdName: data-pg
+          fsType: ext4
