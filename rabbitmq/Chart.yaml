@@ -1,0 +1,15 @@
+name: rabbitmq
+from:
+  name: rabbitmq
+  version: 0.2.1
+  repo: https://github.com/bitnami/charts
+home: https://www.rabbitmq.com
+source:
+- https://github.com/bitnami/bitnami-docker-rabbitmq
+version: 0.2.1
+description: Open source message broker software that implements the Advanced Message
+  Queuing Protocol (AMQP)
+maintainers:
+- Bitnami <containers@bitnami.com>
+details: RabbitMQ is an open source message broker software that implements the Advanced
+  Message Queuing Protocol (AMQP).

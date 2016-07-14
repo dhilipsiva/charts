@@ -1,0 +1,3 @@
+postgresUser = "postgres"
+postgresPassword = "postgres"
+postgresDb = "postgres"
